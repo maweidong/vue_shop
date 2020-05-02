@@ -1,3 +1,4 @@
+## 本资源由 itjc8.com 收集
 # vue_shop
 
 ## Project setup
