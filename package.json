@@ -26,5 +26,13 @@
     "less-loader": "^4.1.0",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/maweidong/vue_shop.git"
+  },
+  "author": "",
+  "license": "ISC"
 }
