@@ -5,7 +5,8 @@ import {
   Menu, Submenu, MenuItem, Breadcrumb,
   BreadcrumbItem, Card, Row, Col, Table, 
   TableColumn, Switch,Pagination,Dialog,Tooltip,
-  MessageBox,Tag,Tree,Select,Option,Cascader
+  MessageBox,Tag,Tree,Select,Option,Cascader,
+  Alert
 } from 'element-ui'
 
 Vue.use(Button),
@@ -35,6 +36,7 @@ Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Cascader)
+Vue.use(Alert)
 
 
 
