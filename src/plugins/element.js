@@ -3,9 +3,9 @@ import {
   Button, Form, FormItem, Input, Message,
   Container, Header, Aside, Main,
   Menu, Submenu, MenuItem, Breadcrumb,
-  BreadcrumbItem, Card, Row, Col, Table, 
-  TableColumn, Switch,Pagination,Dialog,Tooltip,
-  MessageBox,Tag,Tree,Select,Option,Cascader,
+  BreadcrumbItem, Card, Row, Col, Table,
+  TableColumn, Switch, Pagination, Dialog, Tooltip,
+  MessageBox, Tag, Tree, Select, Option, Cascader,
   Alert
 } from 'element-ui'
 
@@ -38,9 +38,5 @@ Vue.use(Option)
 Vue.use(Cascader)
 Vue.use(Alert)
 
-
-
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
-
-

@@ -8,10 +8,12 @@ import './assets/fonts/iconfont.css'
 import './assets/css/global.css'
 import TreeTable from 'vue-table-with-tree-grid'
 
-
 import axios from 'axios'
 import { Tree } from 'element-ui'
-// 配置请求的跟路径
+import echarts from 'echarts'
+
+Vue.prototype.$echarts = echarts
+    // 配置请求的跟路径
 axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
 axios.interceptors.request.use(config => {
     // console.log(config)
@@ -36,11 +38,7 @@ Vue.filter('dataFormat', function(originVal) {
     const ss = (dt.getSeconds() + '').padStart(2, '0')
 
     return `${y}-${m}-${d} ${hh}:${mm}:${ss}`
-
 })
-
-
-
 
 new Vue({
     router,

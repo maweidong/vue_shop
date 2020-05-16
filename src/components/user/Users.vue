@@ -23,7 +23,7 @@
             </el-input>
           </el-col>
           <el-col :span="4">
-            <el-button type="primary" @click="addDialogVisible=true">添加用户</el-button>
+            <el-button type="primary" @click="addDialogVisible=true">添加用户1</el-button>
           </el-col>
         </el-row>
 
@@ -329,7 +329,7 @@ export default {
 
         // 关闭对话框
         this.editDialogVisible = false
-        //刷新数据列表
+        // 刷新数据列表
         this.getUserList()
         // 提示修改成功
         this.$message.success('更新用户信息成功！')

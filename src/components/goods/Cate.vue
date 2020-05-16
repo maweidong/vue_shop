@@ -195,7 +195,6 @@ export default {
         ]
         // 为当前分类的等级赋值
         this.addCateForm.cat_level = this.selectedKeys.length
-        return
       } else {
         // 父级分类的Id
         this.addCateForm.cat_pid = 0

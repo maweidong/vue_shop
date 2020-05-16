@@ -62,7 +62,6 @@
           </template>
         </el-table-column>
 
-        
         <el-table-column type="index"></el-table-column>
         <el-table-column label="角色名称" prop="roleName"></el-table-column>
         <el-table-column label="角色描述" prop="roleDesc"></el-table-column>
@@ -107,13 +106,11 @@
   </div>
 </template>
 
-
         </el-table-column>
       </el-table>
     </el-card>
   </div>
 </template>
-
 
 <script>
 export default {
@@ -217,12 +214,11 @@ export default {
 
       this.$message.success('分配权限成功！')
       this.getRolesList()
-      this.showSetRightDialogVisible=false
+      this.showSetRightDialogVisible = false
     }
   }
 }
 </script>
-
 
 <style lang="less" scoped>
 .el-tag {
